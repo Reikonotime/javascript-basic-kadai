@@ -3,4 +3,6 @@ let weight = 68;
 //身長
 let height = 1.7;
 //計算式
-console.log(weight / (height * height));
+let bmi = (weight / (height * height));
+//出力
+console.log(bmi);
